@@ -10,7 +10,7 @@
           </div>
           <div class="modal-body">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h3>{{ title }}</h3>
                     <div class="mt-3">
                         <p>{{ description }}</p>
@@ -22,12 +22,12 @@
                         
                     </div>
 
-                    <div class="mt-5">
+                    <div class="my-5">
                         <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">Launch</a>
                     </div>
 
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-8">
+                <div class="col-12 col-sm-12s col-md-12 col-lg-8">
                     <Carousel :name="projectName+'-carousel'" :images="images"></Carousel>
                 </div>
             </div>
