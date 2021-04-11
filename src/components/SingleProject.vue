@@ -7,11 +7,11 @@
                     <div class="col-xs-6 col-sm-6 col-md-4">
                         <h4>{{ title }}</h4>
                         
-                        <button type="button" class="btn btn-primary w-50 rounded-pill mb-3" data-toggle="modal" :data-target="'#'+title.toLowerCase().split(' ').join('-')">
+                        <button type="button" class="btn btn-primary w-100 rounded-pill mb-3" data-toggle="modal" :data-target="'#'+title.toLowerCase().split(' ').join('-')">
                             More details
                         </button>
                         
-                        <p> <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">Launch</a> </p>
+                        <p> <a class="btn btn-secondary w-100 rounded-pill" :href="link" target="_blank">Launch</a> </p>
 
                         <project-modal :projectName="title.toLowerCase().split(' ').join('-')" :title="title" :description="description" :link="link" :technologies="technologies" :images="images"></project-modal>
 
