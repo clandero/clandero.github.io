@@ -1,7 +1,7 @@
 <template>
   <Header></Header>
   <section style="margin-top:0">
-    <about-me text="Lorem Ipsum."></about-me>
+    <about-me :text="aboutMeText"></about-me>
     <list-of-projects :projects="projects"></list-of-projects>
   </section>
   <Footer></Footer>
@@ -22,10 +22,11 @@
     name: 'App',
     data(){
       return{
+        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm a Junior developer at Everis focused on building and maintaining critical systems for their customers.",
         projects: [
           {
             title: 'Lottawork',
-            description: 'Lorem Ipsum',
+            description: 'A startup with the purpose of connecting potential customers to freelancers and small businesses, and a marketplace to hire services. My job was to build the front-end for the web application and maintain the Android version of the app.',
             link: "https://app.lottawork.com/",
             technologies: [
                 'JavaScript', 'PHP', 'Laravel', 'Java', 'Android', 'MySQL'
@@ -42,8 +43,8 @@
             ]
           },
           {
-            title: 'CENS',
-            description: 'Lorem Ipsum',
+            title: 'Centro Nacional en Sistemas de Información en Salud',
+            description: 'As part of the "Evaluación de Calidad de Sistemas Software en Telemedicina" project, I collaborated in the creation of the data model, back-end and front-end of the tool used for the evaluation of the applicant to the certification.',
             link: "https://sello.cens.cl/",
             technologies: [
                 'Python', 'Django', 'JavaScript', 'PostgreSQL'
@@ -65,7 +66,7 @@
           },
           {
             title: 'Universidad de Concepción',
-            description: 'Lorem Ipsum',
+            description: 'This project was a collaboration of a group of students during our last year at University. It consisted of a web-based structural health monitoring system to monitor bridges in Chile. My collaboration was primarily on the data modelling side.',
             link: 'http://177.71.243.203/',
             technologies: [
                 'Python', 'Flask', 'JavaScript', 'TimescaleDB'
@@ -87,7 +88,7 @@
           },
           {
             title: 'LATAM Airlines',
-            description: 'Lorem Ipsum',
+            description: 'When I started to work for Everis, I was assigned to the Marketing team who provides services to LATAM Airlines Group. My role is to improve and maintain the web-applications and Batch processes used to refund and compensate passangers.',
             link: 'https://www.latam.com/DevolucionesLatamWeb-1.0/public/ingresoSolicitud.jsf',
             technologies: [
                 'Java', 'Oracle', 'SoapUI'
@@ -262,7 +263,7 @@
     box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
     top: -60px;
     padding: 50px 0;
-    max-width:400px;
+    max-width:600px;
     margin:auto;
   }
 

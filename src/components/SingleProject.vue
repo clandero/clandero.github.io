@@ -3,9 +3,9 @@
         <div class="row no-gutters">
             <div class="col-md-2"></div>
             <div class="col-xs-12 col-sm-12 col-md-8">   
-                <div class="row no-gutters">
+                <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-4">
-                        <h3>{{ title }}</h3>
+                        <h4>{{ title }}</h4>
                         
                         <button type="button" class="btn btn-primary w-50 rounded-pill mb-3" data-toggle="modal" :data-target="'#'+title.toLowerCase().split(' ').join('-')">
                             More details

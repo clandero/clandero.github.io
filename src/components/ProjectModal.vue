@@ -9,16 +9,23 @@
             </button>
           </div>
           <div class="modal-body">
-            <div class="row no-gutters">
+            <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-4">
                     <h3>{{ title }}</h3>
-                    <p>{{ description }}</p>
-                    
+                    <div class="mt-3">
+                        <p>{{ description }}</p>
+                    </div>
+
                     <div class="mt-5">
                         <h6>Technologies used in this project:</h6>
                         <p> <span v-for="item in technologies" :key="item" class="badge badge-primary" :class="item.toLowerCase()+'-tag'">{{ item }}</span> </p>
-                        <p> <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">Launch</a> </p>
+                        
                     </div>
+
+                    <div class="mt-5">
+                        <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">Launch</a>
+                    </div>
+
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-8">
                     <Carousel :name="projectName+'-carousel'" :images="images"></Carousel>
@@ -64,6 +71,12 @@
 </script>
 
 <style scoped>
+    p{
+        text-align: justify;
+    }
+    h6{
+        text-align: left;
+    }
     @media (min-width: 576px){
         .modal-dialog {
             max-width: 95vw;
