@@ -22,7 +22,7 @@
     name: 'App',
     data(){
       return{
-        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm open to work as a Software DeveloperF.",
+        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm open to work as a Software Developer.",
         projects: [
           {
             title: 'Lottawork',
