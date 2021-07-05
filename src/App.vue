@@ -22,7 +22,7 @@
     name: 'App',
     data(){
       return{
-        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm a Junior developer at Everis focused on building and maintaining critical systems for their customers.",
+        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm open to work as a Software DeveloperF.",
         projects: [
           {
             title: 'Lottawork',
@@ -43,7 +43,7 @@
             ]
           },
           {
-            title: 'Centro Nacional en Sistemas de Información en Salud',
+            title: 'National Center for Health Information Systems',
             description: 'As part of the "Evaluación de Calidad de Sistemas Software en Telemedicina" project, I collaborated in the creation of the data model, back-end and front-end of the tool used for the evaluation of the applicant to the certification.',
             link: "https://sello.cens.cl/",
             technologies: [
@@ -114,6 +114,7 @@
   @import './../public/lib/font-awesome/fontawesome-free-5.13.0-web/css/fontawesome.min.css';
   @import './../public/lib/font-awesome/fontawesome-free-5.13.0-web/css/brands.min.css';
   @import './../public/lib/font-awesome/fontawesome-free-5.13.0-web/css/regular.min.css';
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
   
   .my-links {
     margin-left:10px;
@@ -121,7 +122,7 @@
   }
 
   #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -132,13 +133,13 @@
   h1, h2, h3, h4, h5{
     color:#4A4E69;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
   }
 
   p {
     color: #4A4E69;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
   }
 
   section {

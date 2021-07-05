@@ -18,7 +18,7 @@
         <div class="col-12">
             <div class="header-col">
                 <img src="./../assets/myphoto.jpeg" alt="profile pic" class="img-responsive profile-pic center-block">
-                <h1>Carlos Landero</h1>
+                <h1 class="mt-2">Carlos Landero</h1>
                 <h2>Software Developer</h2>
                 <a class="my-links btn btn-danger px-2" href="mailto:carloslanderoambiado@gmail.com">
                     <i class="far fa-envelope"></i>
