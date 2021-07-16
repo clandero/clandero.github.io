@@ -1,5 +1,5 @@
 <template>
-    <div class="row no-gutters text-center row-header" :style="{'background-image': 'url(' + require('./../assets/concepcion.jpg') + ')'}">
+    <div class="row no-gutters text-center row-header" :style="{'background-image': 'url(' + require('./../assets/concepcion.jpg') + ')', 'background-position-y':'center'}">
         <div class="col-12">
             <div class="row no-gutters">
                 <div class="col-md-6">
