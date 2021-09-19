@@ -3,17 +3,13 @@
         <div class="col-12">
             <div class="row no-gutters">
                 <div class="col-md-6">
-
                 </div>
                 <!-- <div class="col-xs-12 col-sm-12 col-md-6">
-                    <button class="btn btn-dark mx-1">Español</button>
-                    <button class="btn btn-dark mx-1">English</button>
-                    <button class="btn btn-dark mx-1">日本語</button>
+                    <select class="btn btn-dark mx-1" v-model="$i18n.locale">
+                    <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.lang">{{ lang.label }}</option>
+                    </select>
                 </div> -->
             </div>
-            
-            
-
         </div>
         <div class="col-12">
             <div class="header-col">
@@ -35,5 +31,24 @@
 </template>
 
 <script>
-    export default {}
+    export default {
+        data() {
+            return { 
+                langs: [
+                    {
+                        'lang':'es',
+                        'label': '🇪🇸 Español'
+                    },
+                    {
+                        'lang':'en',
+                        'label': '🇬🇧 English'
+                    },
+                    {
+                        'lang':'ja',
+                        'label': '🇯🇵 日本語'
+                    }
+                ] 
+            }
+        }
+    }
 </script>

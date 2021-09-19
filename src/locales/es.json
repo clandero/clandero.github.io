@@ -1,0 +1,29 @@
+{
+    "jobRole": "Ingeniero de Software",
+    "aboutMeTitle": "Sobre mí",
+    "aboutMeText": "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.",
+    "projectsIveWorked": "Proyectos en los que he trabajado",
+    "projects": [
+        {
+            "title":"Lottawork",
+            "description": "A startup with the purpose of connecting potential customers to freelancers and small businesses, and a marketplace to hire services. My job was to build the front-end for the web application and maintain the Android version of the app.",
+            "link": "https://app.lottawork.com/",
+            "technologies": [
+                "JavaScript", "PHP", "Laravel", "Java", "Android", "MySQL"
+            ],
+            "images": [
+                {
+                    "route":"require('./assets/lottawork1.png')",
+                    "name":"lottawork1"
+                },
+                {
+                    "route":"require('./assets/lottawork2.png')",
+                    "name":"lottawork2"
+                }
+            ]
+        },
+        {"title":"Centro Nacional en Sistemas de Información en Salud"},
+        {"title":"Universidad de Concepción"},
+        {"title":"LATAM Airlines"}
+    ]
+}
