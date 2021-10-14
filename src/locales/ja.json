@@ -1,10 +1,14 @@
 {
-    "jobRole": "ソフトウェアエンジニア",
-    "aboutMeTitle": "私について",
-    "aboutMeText": "日本語",
-    "projectsIveWorked": "私はこれらのプロジェクトに取り組んでいました",
-    "lottawork": "ロッタワーク",
-    "cens":"国民健康情報センター",
-    "udec":"コンセプシオン大学",
-    "latam":"LATAM チリ"
+    "Ingeniero de Software": "ソフトウェアエンジニア",
+    "Sobre mí": "私について",
+    "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.": "日本語",
+    "Proyectos en los que he trabajado": "私はこれらのプロジェクトに取り組んでいました",
+    "Lottawork": "ロッタワーク",
+    "Centro Nacional en Sistemas de Información en Salud":"国民健康情報センター",
+    "Universidad de Concepción":"コンセプシオン大学",
+    "LATAM Airlines":"LATAM チリ",
+    "Si necesitas contactarme. Escribeme e intentaré responderte lo antes posible.":"あなたが私に連絡する必要がある場合。 私に書いてください、そして私はあなたに戻るために最善を尽くします！。",
+    "Hola!": "こんにちは！",
+    "Ver página web": "ウェブサイトを見る",
+    "Más detalles": "詳細"
 }

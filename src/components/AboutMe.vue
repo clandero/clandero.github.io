@@ -1,14 +1,14 @@
 <template>
     <div class="row no-gutters">
       <div class="col xs-12 my-3">
-        <h1 class="text-center section-heading">About me</h1>
+        <h1 class="text-center section-heading">{{ $t('Sobre mí')}}</h1>
       </div>
     </div>
     <div class="row no-gutters">
       <div class="col-md-2"></div>
       <div class="col-xs-12 col-sm-12 col-md-8">
         <div class="jumbotron">
-          <p>{{ text }}</p>
+          <p>{{ $t(text) }}</p>
           <p>
             <!-- <button class="btn btn-primary rounded-pill">Resume</button> -->
           </p>

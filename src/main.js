@@ -9,7 +9,7 @@ import ja from './locales/ja.json';
 const messages = {es,en,ja}
 
 const i18n = createI18n({
-    locale: 'en', // set locale
+    locale: 'es', // set locale
     fallbackLocale: 'en', // set fallback locale
     messages,
 })

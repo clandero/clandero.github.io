@@ -22,7 +22,7 @@
     name: 'App',
     data(){
       return{
-        aboutMeText:"I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm working as a Back-end Developer in Magnet SPA.",
+        aboutMeText:"Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.",
         projects: [
           {
             title: 'Lottawork',
@@ -43,7 +43,7 @@
             ]
           },
           {
-            title: 'National Center for Health Information Systems',
+            title: 'Centro Nacional en Sistemas de Información en Salud',
             description: 'As part of the "Evaluación de Calidad de Sistemas Software en Telemedicina" project, I collaborated in the creation of the data model, back-end and front-end of the tool used for the evaluation of the applicant to the certification.',
             link: "https://sello.cens.cl/",
             technologies: [

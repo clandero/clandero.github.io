@@ -1,8 +1,8 @@
 {
-    "jobRole": "Ingeniero de Software",
-    "aboutMeTitle": "Sobre mí",
-    "aboutMeText": "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.",
-    "projectsIveWorked": "Proyectos en los que he trabajado",
+    "Sobre mí":"Sobre mí",
+    "Ingeniero de Software": "Ingeniero de Software",
+    "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.": "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.",
+    "Proyectos en los que he trabajado": "Proyectos en los que he trabajado",
     "projects": [
         {
             "title":"Lottawork",
@@ -25,5 +25,13 @@
         {"title":"Centro Nacional en Sistemas de Información en Salud"},
         {"title":"Universidad de Concepción"},
         {"title":"LATAM Airlines"}
-    ]
+    ],
+    "Lottawork": "Lottawork",
+    "Centro Nacional en Sistemas de Información en Salud":"Centro Nacional en Sistemas de Información en Salud",
+    "Universidad de Concepción":"Universidad de Concepción",
+    "LATAM Airlines":"LATAM Airlines",
+    "Si necesitas contactarme. Escribeme e intentaré responderte lo antes posible.":"Si necesitas contactarme. Escribeme e intentaré responderte lo antes posible.",
+    "Hola!": "Hola!",
+    "Ver página web": "Ver página web",
+    "Más detalles": "Más detalles"
 }

@@ -1,10 +1,14 @@
 {
-    "jobRole": "Software Engineer",
-    "aboutMeTitle": "About me",
-    "aboutMeText": "I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm working as a Back-end Developer in Magnet SPA.",
-    "projectsIveWorked": "Projects I've Worked",
-    "lottawork": "Lottawork",
-    "cens":"National Center for Health Information Systems",
-    "udec":"University of Concepción",
-    "latam":"LATAM Airlines"
+    "Sobre mí": "About me",
+    "Ingeniero de Software": "Software Engineer",
+    "Soy tiulado de Ingeniería Civil Infomática en Chile, me especializo en crear aplicaciones web y móvil. Actualmente, trabajo como desarrollador Back-end en Magnet SPA.": "I'm a Computer Science bachelor graduate from Chile, who specializes in building web and mobile applications. Currently, I'm working as a Back-end Developer in Magnet SPA.",
+    "Proyectos en los que he trabajado": "Projects I've Worked",
+    "Lottawork": "Lottawork",
+    "Centro Nacional en Sistemas de Información en Salud":"National Center for Health Information Systems",
+    "Universidad de Concepción":"University of Concepción",
+    "LATAM Airlines":"LATAM Airlines",
+    "Si necesitas contactarme. Escribeme e intentaré responderte lo antes posible.":"If you need to contact me. Write me and I'll try my best to get back to you!",
+    "Hola!": "Hello!",
+    "Ver página web": "Launch webpage",
+    "Más detalles": "More details"
 }

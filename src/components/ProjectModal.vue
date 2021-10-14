@@ -11,7 +11,7 @@
           <div class="modal-body">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                    <h3>{{ title }}</h3>
+                    <h3>{{ $t(title) }}</h3>
                     <div class="mt-3">
                         <p>{{ description }}</p>
                     </div>
@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="my-5">
-                        <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">Launch</a>
+                        <a class="btn btn-secondary w-50 rounded-pill" :href="link" target="_blank">{{ $t('Ver página web') }}</a>
                     </div>
 
                 </div>

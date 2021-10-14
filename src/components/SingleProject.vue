@@ -5,13 +5,13 @@
             <div class="col-xs-12 col-sm-12 col-md-8">   
                 <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-4">
-                        <h4>{{ title }}</h4>
+                        <h4>{{ $t(title) }}</h4>
                         
                         <button type="button" class="btn btn-primary w-100 rounded-pill mb-3" data-toggle="modal" :data-target="'#'+title.toLowerCase().split(' ').join('-')">
-                            More details
+                            {{ $t('Más detalles') }}
                         </button>
                         
-                        <p> <a class="btn btn-secondary w-100 rounded-pill" :href="link" target="_blank">Launch</a> </p>
+                        <p> <a class="btn btn-secondary w-100 rounded-pill" :href="link" target="_blank">{{ $t('Ver página web') }}</a> </p>
 
                         <project-modal :projectName="title.toLowerCase().split(' ').join('-')" :title="title" :description="description" :link="link" :technologies="technologies" :images="images"></project-modal>
 
