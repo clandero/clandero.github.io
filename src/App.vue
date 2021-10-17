@@ -26,7 +26,7 @@
         projects: [
           {
             title: 'Lottawork',
-            description: 'A startup with the purpose of connecting potential customers to freelancers and small businesses, and a marketplace to hire services. My job was to build the front-end for the web application and maintain the Android version of the app.',
+            description: "Una startup con el propósito de conectar clientes potenciales con autónomos y pequeñas empresas para contratar servicios. Mi trabajo consistía en crear el front-end para la aplicación web y mantener la versión de Android de la aplicación.",
             link: "https://app.lottawork.com/",
             technologies: [
                 'JavaScript', 'PHP', 'Laravel', 'Java', 'Android', 'MySQL'
@@ -44,7 +44,7 @@
           },
           {
             title: 'Centro Nacional en Sistemas de Información en Salud',
-            description: 'As part of the "Evaluación de Calidad de Sistemas Software en Telemedicina" project, I collaborated in the creation of the data model, back-end and front-end of the tool used for the evaluation of the applicant to the certification.',
+            description: 'Como parte del proyecto "Evaluación de Calidad de Sistemas Software en Telemedicina", colaboré en la creación del modelo de datos, back-end y front-end de la herramienta utilizada para la evaluación de postulantes a la certificación.',
             link: "https://sello.cens.cl/",
             technologies: [
                 'Python', 'Django', 'JavaScript', 'PostgreSQL'
@@ -66,7 +66,7 @@
           },
           {
             title: 'Universidad de Concepción',
-            description: 'This project was a collaboration of a group of students during our last year at University. It consisted of a web-based structural health monitoring system to monitor bridges in Chile. My collaboration was primarily on the data modelling side.',
+            description: 'Este proyecto fue una colaboración de un grupo de estudiantes durante nuestro último año en la Universidad. Consistió en un sistema de monitoreo de salud estructural basado en la web para monitorear puentes en Chile. Mi colaboración se centró principalmente en el modelado de datos.',
             link: 'http://177.71.243.203/',
             technologies: [
                 'Python', 'Flask', 'JavaScript', 'TimescaleDB'
@@ -88,7 +88,7 @@
           },
           {
             title: 'LATAM Airlines',
-            description: 'When I started to work for Everis, I was assigned to the Marketing team who provides services to LATAM Airlines Group. My role is to improve and maintain the web-applications and Batch processes used to refund and compensate passangers.',
+            description: 'Cuando comencé a trabajar para Everis, me asignaron al equipo de marketing de LATAM Airlines Group. Mi función es mejorar y mantener las aplicaciones web y los procesos Batch utilizados para reembolsar y compensar a los pasajeros.',
             link: 'https://www.latam.com/DevolucionesLatamWeb-1.0/public/ingresoSolicitud.jsf',
             technologies: [
                 'Java', 'Oracle', 'SoapUI'

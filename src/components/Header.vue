@@ -4,11 +4,11 @@
             <div class="row no-gutters">
                 <div class="col-md-6">
                 </div>
-                <!-- <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-12 col-md-6">
                     <select class="btn btn-dark mx-1" v-model="$i18n.locale">
                     <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.lang">{{ lang.label }}</option>
                     </select>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="col-12">
@@ -19,10 +19,10 @@
                 <a class="my-links btn btn-danger px-2" href="mailto:carloslanderoambiado@gmail.com">
                     <i class="far fa-envelope"></i>
                 </a>
-                <a class="my-links btn btn-primary px-2" href="https://www.linkedin.com/in/clandero/" style="color:inherit;">
+                <a class="my-links btn btn-primary px-2" target="_blank" href="https://www.linkedin.com/in/clandero/" style="color:inherit;">
                     <i class="fab fa-linkedin-in" style="color:white;"></i>
                 </a>
-                <a class="my-links btn btn-dark px-2" href="https://github.com/clandero" style="color:inherit; background-color:black;">
+                <a class="my-links btn btn-dark px-2" target="_blank" href="https://github.com/clandero" style="color:inherit; background-color:black;">
                     <i class="fab fa-github" style="color:white;"></i>
                 </a>
             </div>
@@ -43,10 +43,10 @@
                         'lang':'en',
                         'label': '🇬🇧 English'
                     },
-                    {
-                        'lang':'ja',
-                        'label': '🇯🇵 日本語'
-                    }
+                    // {
+                    //     'lang':'ja',
+                    //     'label': '🇯🇵 日本語'
+                    // }
                 ] 
             }
         }

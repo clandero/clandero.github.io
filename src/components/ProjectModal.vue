@@ -13,13 +13,12 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h3>{{ $t(title) }}</h3>
                     <div class="mt-3">
-                        <p>{{ description }}</p>
+                        <p>{{ $t(description) }}</p>
                     </div>
 
                     <div class="mt-5">
-                        <h6>Technologies used in this project:</h6>
+                        <h6>{{ $t("Tecnologías utilizadas en este proyecto:") }}</h6>
                         <p> <span v-for="item in technologies" :key="item" class="badge badge-primary" :class="item.toLowerCase()+'-tag'">{{ item }}</span> </p>
-                        
                     </div>
 
                     <div class="my-5">
