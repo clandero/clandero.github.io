@@ -88,7 +88,7 @@
           },
           {
             title: 'LATAM Airlines',
-            description: 'Cuando comencé a trabajar para Everis, me asignaron al equipo de marketing de LATAM Airlines Group. Mi función es mejorar y mantener las aplicaciones web y los procesos Batch utilizados para reembolsar y compensar a los pasajeros.',
+            description: 'Cuando comencé a trabajar para Everis, me integré al equipo de marketing de LATAM Airlines Group. Mi función fue mejorar y mantener las aplicaciones web y los procesos Batch utilizados para reembolsar y compensar a los pasajeros.',
             link: 'https://www.latam.com/DevolucionesLatamWeb-1.0/public/ingresoSolicitud.jsf',
             technologies: [
                 'Java', 'Oracle', 'SoapUI'
